@@ -13,5 +13,7 @@ public interface ICategoriaDAO {
     public void remover(int id);
     
     public List<Categoria> consultar();
+
+    public void atualizar(String atualizado_com_Sucesso);
     
 }
